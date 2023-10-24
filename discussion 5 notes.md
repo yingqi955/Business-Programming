@@ -1,0 +1,15 @@
+- 
+- Reference Sources: https://www.freecodecamp.org/news/asynchronous-programming-in-javascript/
+- Asynchrounus programming: In traditional way, the programming need to wait other people finish their parts so that another person can do the rest. But the asynchronous programming means multiple people can do their parts without waiting and get more things done within a shorter amount of time.
+  - Examples of use cases: network requests.
+  - use setTimeout method to avoid blocking or freezing
+- example of asynchronous programming: sent a request to the servers while handling user input and processing data.
+- synchrounous programming: step by step, one step at a time. Con: dealing with tasks that take a significant amount of time.
+- Blocking: if a system is doing the synchrounous programming, and is waiting the response from a remote server, it will keep waiting and do nothing else, annot do anything else until getting a response.
+- Callback: a task has to complete execution before the callback can be executed. Exceuted after the first function has finished running. 
+  - use case: handling asynchrounous operations, like fetching data from a server. waiting for a user's input, or handling events.
+  - Callback hell: nested call backs and chain multiple callbacks together.
+- Promise: similar to callback. and more readable syntax and additional capabilities.
+- Async: used to declare a function as asynchrounous
+- Await: keyword used inside an async to pause the execution of the function until a promose is resolved.
+
